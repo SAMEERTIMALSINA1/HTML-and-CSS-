@@ -26,4 +26,4 @@ This repository contains a simple, responsive **Contact Us** form built using **
 ## 🚀 How to Use
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/SAMEERTIMALSINA1/HTML-and-CSS-.git
