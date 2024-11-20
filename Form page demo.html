@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact us</title>
+        <style>
+            /*css formating can be done from here. since this form is short name of the tag are used for formating purposes and except for radio buttons and for placeholder*/
+            #contact_us{
+                color:  darkorange;
+            }
+            form{
+                background-color: moccasin;
+                margin: 20px;
+                padding: 40px;
+                box-sizing: border-box;
+            }
+            body{
+                width: fit-content;
+                margin:auto;
+                font-size: 20px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            #yes{
+                width: 20px;
+                height: 20px;
+            }
+            #no{
+                width: 20px;
+                height: 20px;
+            }
+            strong{
+                color: red;
+            }
+            input{
+                width: 3.5in;
+            }
+            ::placeholder{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--form starts from here -->
+        <form method="post" action="https://formspree.io/f/xwkdgozb">
+        <h2 id="contact_us">Contact us</h2>
+        <p>Please use this form if you would like to share this place. The purpose of this form is to: </p>
+        <ul>
+            <li>Take feedbacks from the readers.</li>
+            <li>Take an additional information from the recent visitors.</li>
+        </ul>
+        <p><b>Note:</b>An Asterisk(<strong>*</strong>) indicates a responses is required.</p>
+
+            <label for="fname">First Name<strong>*</strong>    </label>
+            <input type="text" id="fname" name="fname" required placeholder="First Name"><br><br>
+
+            <label for="lname">Last Name<strong>*</strong>         </label>
+            <input type="text" id="lname" name="lname" required placeholder="Last name"><br><br>
+
+            <label for="email">Email Address<strong>*</strong>     </label>
+            <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+
+            <label for="phone">Phone(optional):</label>
+            <input type="text" id="phone" name="phone" maxlength="10" placeholder="Phone Details" ><br><br>
+
+            <label for="city">City<strong>*</strong>   </label>
+            <input type="text" id="city" name="city" required placeholder="Your City"><br><br>
+
+            <label for="state">State<strong>*</strong> </label>
+            <input type="text" id="state" name="state" required placeholder="Your State"><br><br>
+
+            <label for="zip">Zip<strong>*</strong> </label>
+            <input type="text" name="zip" id="zip" required placeholder="your zip"><br><br>
+
+            <p>Did you find this article intresting?(Yes/No)<strong>*</strong> </p>
+            <input type="radio" name="yes1" id="yes"> 
+               <label for="yes">Yes</label>
+               
+               <input type="radio" name="yes1" id="no">
+               <label for="no">No</label>
+               
+            <p>Did you visit this place in the past?(Yes/NO)<strong>*</strong></p>
+            <input type="radio" name="yes2" id="yes"> 
+            <label for="yes">Yes</label>
+            
+            <input type="radio" name="yes2" id="no">
+            <label for="no">No</label>
+
+     <!--Text area-->
+            <p>Tell us what are the different places/activities nearby?<strong>*</strong></p>
+            <textarea name="helloworld" id="helloworld" cols="60" rows="8"></textarea>
+
+     <!--rating are from here-->
+            <p>Rate this place from 1 to 5?<strong>*</strong></p>
+            <label for="rate"></label>
+            <input type="number" max="5" min="1" placeholder="Select One" >
+            <br><br>
+            <!--we can make changes in submit and reset button-->
+    <input type="Submit" formmethod="post" class="orange_button" name="submit"  style="width:1.5in; background-color: orange; color: white; font-weight: bold; ">
+    <input type="Reset" class="orange_button" style="width: 1.5in; background-color:orange; color: white; font-weight: bold;">
+        </form>
+    </body>
+</html>
