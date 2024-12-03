@@ -1,40 +1,58 @@
-HTML and CSS Controls Webpage
-This repository contains a simple webpage built with HTML and CSS, designed to demonstrate various HTML elements, including headings, text formatting, and tables. It provides hands-on experience with basic web development concepts, especially HTML syntax and CSS styling.
+# HTML and CSS Projects
 
-🌟 Features
-HTML Headings:
-Demonstrates the use of various heading tags (<h1>, <h2>, ..., <h6>) with examples and corresponding outputs.
+This repository contains two HTML and CSS projects that showcase essential web development skills. These projects cover the creation of a **Contact Us** form and the display of basic HTML controls, including heading levels and text formatting.
 
-Text Formatting:
-Examples of how to use basic text formatting tags like <b>, <i>, and <u> to style text within an HTML document.
+## 🌟 Features
 
-CSS Styling:
-Custom CSS is applied to the webpage, with different background colors for table rows, borders for table cells, and other modern styling techniques like border-radius and box-shadow.
+### 1. Contact Us Form
+- **HTML Form Elements:**  
+  Includes input fields for personal information, such as name, email, phone, city, state, and zip code.  
+  Also contains radio buttons and a text area to collect user feedback.
+  
+- **Custom Styling:**  
+  The form is styled using CSS to make it more visually appealing, with specific styles for inputs, labels, placeholders, and responsive design.
+  
+- **Responsive Design:**  
+  The layout adjusts to different screen sizes, making it user-friendly across devices.
+  
+- **Form Handling:**  
+  The form is connected to Formspree, a service to handle form submissions and send them to an email.
 
-Responsive Layout:
-The webpage layout is styled to be responsive, ensuring it looks good on a variety of screen sizes, including mobile and desktop.
+### 2. HTML Controls
+- **HTML Headings:**  
+  Demonstrates all six HTML heading levels (`<h1>` to `<h6>`), with both HTML syntax and live examples.
+  
+- **Text Formatting:**  
+  Examples of text formatting using HTML tags for **bold**, **italic**, and **underline** styles.
+  
+- **Table Display:**  
+  A detailed table layout demonstrating row colors, borders, and text alignment.
+  
+- **Interactive Examples:**  
+  Nested tables show HTML syntax and their corresponding outputs on the web page.
 
-Tables with Examples:
-The webpage showcases HTML tables with examples of headings and text formatting in a well-structured format.
+## 🛠️ Skills Demonstrated
+- **HTML Elements:**  
+  - Input fields, radio buttons, text areas, tables, and headings.
+  
+- **CSS Styling:**  
+  - Creating responsive layouts, styling form elements, and controlling the appearance of tables and text.
+  
+- **Form Handling with Formspree:**  
+  - Collect and send form data to an email using a third-party service.
 
-🛠️ Skills Demonstrated
-HTML Skills:
-Usage of semantic HTML tags such as <h1>, <h2>, <ul>, <ol>, <li>, <table>, and others to structure content logically.
-Demonstrates the concept of nested elements and how tables can be used to display multiple types of data in a grid layout.
-CSS Techniques:
-Styling for table borders, cell padding, and text alignment.
-Using background colors for table rows and specific cells to differentiate between various types of content.
-Creating a responsive layout by adjusting the table's positioning and width using CSS.
-Border styling and usage of color classes for visual appeal and to demonstrate CSS skills.
-📂 Project Files
-index.html - Contains the HTML structure for the page, including the contact-related content, tables with HTML syntax examples, and formatting examples.
-Inline CSS within the <style> tag - Applied for styling the tables, rows, and other HTML elements directly within the HTML document.
-🚀 How to Use
-Clone or download this repository:
-bash
-Copy code
-git clone https://github.com/SAMEERTIMALSINA1/HTML-and-CSS-.git
-Open the index.html file in any web browser to view and interact with the HTML structure and see the examples of headings, text formatting, and tables.
-Modify the HTML and CSS as needed to suit your project or learning goals.
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📂 Project Files
+
+### 1. Contact Us Form
+- `index.html` - Contains the structure and layout for the contact form.
+- Inline CSS - Used for styling the form and the webpage layout.
+
+### 2. HTML Controls
+- `index.html` - Displays different HTML heading levels and text formatting examples.
+- Inline CSS - Applied to style the page, tables, and content.
+
+## 🚀 How to Use
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/SAMEERTIMALSINA1/HTML-and-CSS-projects.git
